@@ -14,6 +14,7 @@
 - **[Ilya Sutskever](./Ilya-Sutskever.md)**: OpenAI 前首席科学家，SSI 创始人。AGI 的坚定信仰者，主导了 GPT 系列的诞生，后因安全理念分歧引发“宫斗”。
 - **[Geoffrey Hinton](./Geoffrey-Hinton.md)**: “AI 教父”，深度学习奠基人。晚年从 Google 离职，成为 AI 风险的“吹哨人”。
 - **[Yann LeCun](./Yann-LeCun.md)**: Meta 首席 AI 科学家，图灵奖得主。坚定的开源支持者和 AI 乐观主义者，常与“末日论”者在社交媒体激辩。
+- **[李飞飞 (Fei-Fei Li)](./Fei-Fei-Li.md)**: 计算机视觉教母，ImageNet 缔造者。现致力于“空间智能”与具身 AI 的发展。
 
 ---
 
