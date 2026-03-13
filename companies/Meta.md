@@ -23,7 +23,9 @@ Meta AI 是开源大模型领域的绝对领导者。通过 Llama 系列，Meta 
 - **2024年7月**: **Llama 3.1** 发布。
     - *里程碑*: 推出 **405B** 版本，这是首个开源的“前沿级 (Frontier-level)”模型，对标 GPT-4o。上下文扩展至 128k。
 - **2025年**:
-    - **Llama 4**: 预计发布，主要增强多模态理解与生成能力，以及更强的推理逻辑。
+    - **Llama 4**: 
+        - **Llama 4 Maverick**: 400B MoE (17B 激活)，性能超越 GPT-4o。
+        - **Llama 4 Scout**: 109B MoE (17B 激活)，拥有 **10M Token** 超长上下文窗口，专为代码库分析和长文档设计。
     - **AI Studio**: Meta 推出平台，允许用户基于 Llama 创建个性化 AI 角色 (Characters)。
 - **2026年**:
     - 持续推动 **Llama 生态系统**，包括端侧设备 (On-device) 运行和小模型 (SLM) 优化。
@@ -36,7 +38,7 @@ Meta AI 是开源大模型领域的绝对领导者。通过 Llama 系列，Meta 
 | **Llama 1** | LLaMA | 7B/13B/33B/65B | 开源鼻祖，验证 Scaling Laws | 2023.02 |
 | **Llama 2** | Llama 2 | 7B/13B/70B | 正式商用许可，RLHF 对齐 | 2023.07 |
 | **Llama 3** | Llama 3/3.1/3.2 | 8B/70B/405B | 性能怪兽，405B 挑战闭源最强 | 2024.04+ |
-| **Code Llama** | Code Llama | 7B/13B/34B/70B | 专为代码微调的版本 | 2023.08 |
+| **Llama 4** | Llama 4 (Maverick/Scout) | 109B/400B (MoE) | MoE 架构，**10M** 超长上下文 | 2025 (预测) |
 
 ## 🔑 核心贡献
 
@@ -48,3 +50,4 @@ Meta AI 是开源大模型领域的绝对领导者。通过 Llama 系列，Meta 
 - *Meta AI Blog: Introducing Llama 3*
 - *Wikipedia: Llama (language model)*
 - *Towards AI: Roadmap to 2026*
+- *Codingscape: Most powerful LLMs in 2026*

@@ -47,7 +47,7 @@
 
 ## 🏢 公司与团队 (Companies & Teams)
 
-> *（待补充：各大主要玩家的动态追踪）*
+> [👉 **点击查看：全球主流大模型公司/机构名录 (Major Players Index)**](major_players.md)
 
 *   **OpenAI**
 *   **Google DeepMind**

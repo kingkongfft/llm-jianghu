@@ -34,9 +34,9 @@ Google 是 AI 领域的奠基者之一，拥有深厚的研究底蕴（如 Trans
     - **Gemini 1.5 Pro**: 引入 **100万+ Token** 的超长上下文窗口，支持处理整本书或长视频。
     - **Gemma**: 发布开源模型系列 Gemma，基于 Gemini 同源技术，对标 Llama。
 - **2025年**:
-    - **Gemini 2.5 Pro**: 增强了推理能力和多工具调用 (Agentic) 工作流。
-    - **Gemini 3 Pro**: 搜索结果显示其在多个基准测试中领先，具备高级编程 Agent 能力。
-    - **Gemma 2/3**: 开源模型持续迭代，覆盖更多尺寸。
+    - **Gemini 2.0**: 全面升级多模态能力。
+    - **Gemini 2.0 Flash**: 在视频理解和生成上达到新高度，同时推理成本大幅降低。
+    - **Gemini 3 Pro**: 搜索结果显示其在多个基准测试中领先，具备高级编程 Agent 能力，与 GPT-5 和 Claude 4.5 竞争。
 - **2026年**: 
     - Gemini 深度集成到 Google Workspace 和 Android 生态。
     - 持续强化 AI Agent 功能，处理复杂企业级任务。
@@ -45,8 +45,8 @@ Google 是 AI 领域的奠基者之一，拥有深厚的研究底蕴（如 Trans
 
 | 系列 | 代表模型 | 简介 |
 | :--- | :--- | :--- |
-| **Gemini** | Gemini 1.5/2.5/3 (Pro/Flash) | Google 最强的原生多模态模型系列。Flash 主打速度，Pro/Ultra 主打推理。 |
-| **Gemma** | Gemma 2B/7B/27B | 轻量级开放权重模型，适合开发者和学术研究。 |
+| **Gemini** | Gemini 1.5/2.0/3.0 (Pro/Flash) | Google 最强的原生多模态模型系列。Flash 主打速度，Pro/Ultra 主打推理。 |
+| **Gemma** | Gemma 2/3 (2B/9B/27B) | 轻量级开放权重模型，适合开发者和学术研究。 |
 | **PaLM** | PaLM 2 | 上一代旗舰大模型，广泛用于 Google 内部产品。 |
 | **AlphaFold** | AlphaFold 3 | 预测蛋白质、DNA、RNA 等生物分子结构，推动药物发现。 |
 | **Imagen** | Imagen 3 | 高质量文生图模型，集成在 Gemini 和 Vertex AI 中。 |
