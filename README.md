@@ -24,9 +24,10 @@
 ## 🗺️ 内容导航
 
 * [📅 发展时间线 (Timeline)](#-发展时间线-timeline)
-* [🏢 公司与团队 (Companies & Teams)](#-公司与团队-companies--teams)
+* [🦸‍♂️ AI 英雄谱 (AI Heroes)](#%EF%B8%8F-ai-英雄谱-ai-heroes)
 * [🚀 模型发布 (Model Releases)](#-模型发布-model-releases)
 * [🤖 OpenClaw 专题 (OpenClaw Special)](#-openclaw-专题-openclaw-special)
+
 * [📰 行业大事件 (Key Events)](#-行业大事件-key-events)
 * [⚖️ 开源协议 (License)](#%EF%B8%8F-开源协议-license)
 
@@ -45,6 +46,18 @@
 - **2024**: Sora, GPT-4o, Claude 3.5, Llama 3...
 - **2025**: DeepSeek-R1, Grok-3, Qwen 2.5-Max (推理模型爆发)
 - **2026**: Gemini 3, GPT-5 (预计/部分发布)...
+
+---
+
+## 🦸‍♂️ AI 英雄谱 (AI Heroes)
+
+> [👉 **点击查看：AI 关键人物与关系网络 (AI Heroes & Relationships)**](heroes/README.md)
+
+本目录致力于收录人工智能领域的**关键人物**，并深入挖掘他们之间的**思想碰撞、合作往来与公开辩论**。
+
+*   **🇺🇸 硅谷实权派**: [Sam Altman](heroes/Sam-Altman.md), [Elon Musk](heroes/Elon-Musk.md)...
+*   **🔬 科学信仰派**: [Ilya Sutskever](heroes/Ilya-Sutskever.md), [Geoffrey Hinton](heroes/Geoffrey-Hinton.md), [Yann LeCun](heroes/Yann-LeCun.md)...
+*   **⚔️ 经典战役**: 末日论 vs. 乐观派, OpenAI 宫斗...
 
 ---
 
