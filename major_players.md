@@ -11,29 +11,29 @@
 
 ### [OpenAI](companies/OpenAI.md)
 - **CEO**: Sam Altman
-- **代表模型**: [GPT-4o](models/GPT-4o.md), GPT-5 (部分来源提及), Sora (视频生成)
+- **代表模型**: [GPT-4o](classic-models/GPT-4o.md), GPT-5 (部分来源提及), Sora (视频生成)
 - **简介**: 全球 AI 领军企业。根据搜索结果，GPT-5 被提及具有强大的推理能力和 10M token 的上下文窗口。其产品线涵盖文本、图像 (DALL-E) 和视频 (Sora)。
 - **动态**: 收购了 AI 安全初创公司 Promptfoo，推出了 Codex Security 漏洞扫描工具。
 
 ### [Google (DeepMind)](companies/Google.md)
 - **CEO**: Sundar Pichai (Google), Demis Hassabis (DeepMind)
-- **代表模型**: Gemini 系列 ([Gemini 1.5 Pro](models/Gemini-1.5-Pro.md), Gemini 3 Pro), Gemma (开源系列), PaLM
+- **代表模型**: Gemini 系列 ([Gemini 1.5 Pro](classic-models/Gemini-1.5-Pro.md), Gemini 3 Pro), Gemma (开源系列), PaLM
 - **简介**: 拥有强大的多模态能力。搜索结果显示 "Gemini 3 Pro" 在某些榜单上处于领先地位。Gemma 系列则对标开源市场。
 
 ### [Anthropic](companies/Anthropic.md)
 - **CEO**: Dario Amodei
-- **代表模型**: Claude 系列 ([Claude 3.5 Sonnet](models/Claude-3.5-Sonnet.md), Claude Opus 4.5)
+- **代表模型**: Claude 系列 ([Claude 3.5 Sonnet](classic-models/Claude-3.5-Sonnet.md), Claude Opus 4.5)
 - **简介**: 由前 OpenAI 员工创立，主打“宪法 AI” (Constitutional AI) 和安全性。Claude Opus 4.5 被视为与 GPT-5 竞争的高端模型。
 
 ### [Meta AI](companies/Meta.md)
 - **CEO**: Mark Zuckerberg (Meta), Yann LeCun (Chief AI Scientist)
-- **代表模型**: Llama 系列 (Llama 2, [Llama 3.1](models/Llama-3.1.md), Llama 4)
+- **代表模型**: Llama 系列 (Llama 2, [Llama 3.1](classic-models/Llama-3.1.md), Llama 4)
 - **简介**: 开源大模型的扛旗者。Llama 系列是目前全球使用最广泛的开源基座模型之一，推动了私有化部署和微调生态的繁荣。
 
 ### [xAI (Elon Musk)](companies/xAI.md)
 - **CEO**: Elon Musk
-- **代表模型**: Grok 系列 (Grok-2, [Grok-3](models/Grok-3.md), Grok-4.1 Thinking)
-- **简介**: 埃隆·马斯克旗下公司。[Grok-3](models/Grok-3.md) (2025年2月发布) 和后续版本强调实时搜索（接入 X 平台数据）和推理能力 (Thinking mode)。
+- **代表模型**: Grok 系列 (Grok-2, [Grok-3](classic-models/Grok-3.md), Grok-4.1 Thinking)
+- **简介**: 埃隆·马斯克旗下公司。[Grok-3](classic-models/Grok-3.md) (2025年2月发布) 和后续版本强调实时搜索（接入 X 平台数据）和推理能力 (Thinking mode)。
 
 ### [Microsoft](companies/Microsoft.md)
 - **CEO**: Satya Nadella (Microsoft), Mustafa Suleyman (Microsoft AI)
@@ -48,7 +48,7 @@
 
 ### [阿里巴巴 (Alibaba Cloud)](companies/Alibaba.md)
 - **CEO**: Eddie Wu (吴泳铭)
-- **代表模型**: 通义千问 Qwen 系列 ([Qwen 2.5](models/Qwen-2.5.md), Qwen 3)
+- **代表模型**: 通义千问 Qwen 系列 ([Qwen 2.5](classic-models/Qwen-2.5.md), Qwen 3)
 - **简介**: Qwen 系列在开源界评价极高，特别是在多语言处理和编码能力上。数据表明 Qwen 是全球使用率极高的开源模型之一。
 
 ### [腾讯 (Tencent)](companies/Tencent.md)
@@ -68,7 +68,7 @@
 
 ### [深度求索 (DeepSeek)](companies/DeepSeek.md)
 - **CEO**: Liang Wenfeng (梁文锋)
-- **代表模型**: DeepSeek 系列 (DeepSeek-V3, [DeepSeek-R1](models/DeepSeek-R1.md))
+- **代表模型**: DeepSeek 系列 (DeepSeek-V3, [DeepSeek-R1](classic-models/DeepSeek-R1.md))
 - **简介**: 专注于大模型底层技术创新（如 MoE 架构），以极高的性价比和开源精神著称，在开发者社区拥有极高人气。
 
 ### [智谱 AI (Zhipu AI)](companies/ZhipuAI.md)
@@ -99,8 +99,8 @@
 
 ### [Mistral AI (法国)](companies/MistralAI.md)
 - **CEO**: Arthur Mensch
-- **代表模型**: Mistral 7B, Mixtral 8x7B (MoE), [Mistral Large 2](models/Mistral-Large-2.md)
-- **简介**: 欧洲之光，其磁力链接发布模型的方式曾引发热议。Mixtral 引领了混合专家模型 (MoE) 的开源潮流，[Mistral Large 2](models/Mistral-Large-2.md) 则展示了接近 GPT-4 级别的能力。
+- **代表模型**: Mistral 7B, Mixtral 8x7B (MoE), [Mistral Large 2](classic-models/Mistral-Large-2.md)
+- **简介**: 欧洲之光，其磁力链接发布模型的方式曾引发热议。Mixtral 引领了混合专家模型 (MoE) 的开源潮流，[Mistral Large 2](classic-models/Mistral-Large-2.md) 则展示了接近 GPT-4 级别的能力。
 
 ---
 
