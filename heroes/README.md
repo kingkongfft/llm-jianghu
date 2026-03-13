@@ -9,6 +9,8 @@
 ### 🇺🇸 硅谷实权派 (The Operators)
 - **[Sam Altman](./Sam-Altman.md)**: OpenAI CEO，被称为“ChatGPT 之父”，激进的加速主义者与商业操盘手。
 - **[Elon Musk](./Elon-Musk.md)**: OpenAI 联合创始人（后退出），xAI 创始人，长期警示 AI 风险的同时疯狂追求 AGI。
+- **[Dario Amodei](./Dario-Amodei.md)**: Anthropic CEO, 有效利他主义者。坚守 AI 安全底线，提出了“宪法 AI”理念。
+- **[Demis Hassabis](./Demis-Hassabis.md)**: Google DeepMind CEO, AlphaGo 之父, 诺贝尔化学奖得主。致力于解决科学难题 (AI for Science)。
 - **[Andrew Ng (吴恩达)](./Andrew-Ng.md)**: DeepLearning.AI 创始人，AI 普及者，坚定的乐观主义者，从“以模型为中心”转向“Agentic Workflow”的倡导者。
 
 ### 🇨🇳 东方力量 (The Eastern Force)
