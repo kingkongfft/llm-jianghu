@@ -29,3 +29,13 @@
 - **时间**: 2026年2月15日
 - **事件**: 创始人 Peter Steinberger 加入 OpenAI。
 - **结果**: OpenAI 宣布全力支持 OpenClaw 的开源发展，视其为构建未来 Personal Agents 生态的重要基石。
+
+### 5. 腾讯 (Tencent) 与 Moltbook 事件
+- **Moltbook 展示会 (The Moltbook Showcase)**
+    - **时间**: 2025年底
+    - **事件**: 在腾讯赞助的一场 Moltbook 展示会上，Peter Steinberger 曾登台演示如何将 OpenClaw 与腾讯云 AI 服务集成。这被视为 OpenClaw 进军企业级市场的早期尝试，也是双方关系的蜜月期。
+- **SkillHub 爬虫事件 (The SkillHub Incident)**
+    - **时间**: 2026年初
+    - **事件**: 随着 OpenClaw 的爆发，腾讯推出了自家的 AI 技能平台 **SkillHub**。
+    - **冲突**: Peter Steinberger 在 X (Twitter) 上公开指责 Tencent SkillHub 暴力抓取 (Scraping) OpenClaw 官方技能市场 **ClawHub** 的数据。
+    - **影响**: 据 Peter 称，这种高频抓取导致 OpenClaw 的服务器账单激增至**五位数美元**，且腾讯未提供任何补偿或技术支持。这一事件引发了开源社区对于“巨头白嫖开源资源”的强烈抗议。
