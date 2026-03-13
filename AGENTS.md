@@ -122,5 +122,11 @@ Since this is a hybrid repo (Docs + Python Tools), testing is scoped to the `ski
     - Types: `docs` (documentation), `feat` (new skill/feature), `fix` (bug fix), `refactor` (structure change).
     - Example: `docs(classic-models): add DeepSeek-R1 technical specs`
 
+## 8. Security Red Lines (CRITICAL)
+
+1.  **NO SECRETS:** **Do not commit or push any password, API key, token, or secret credential to the repository.**
+2.  **No `.env` Files:** Ensure that configuration files containing secrets are ignored.
+3.  **Public Visibility:** This is a public repository. Assume all committed data is compromised immediately.
+
 ---
 *This file is intended for AI agents to understand the operational context of the repository.*
