@@ -26,6 +26,7 @@
 * [📅 发展时间线 (Timeline)](#-发展时间线-timeline)
 * [🏢 公司与团队 (Companies & Teams)](#-公司与团队-companies--teams)
 * [🚀 模型发布 (Model Releases)](#-模型发布-model-releases)
+* [🤖 OpenClaw 专题 (OpenClaw Special)](#-openclaw-专题-openclaw-special)
 * [📰 行业大事件 (Key Events)](#-行业大事件-key-events)
 * [⚖️ 开源协议 (License)](#%EF%B8%8F-开源协议-license)
 
@@ -59,6 +60,16 @@
 *   **[xAI Grok-3](classic-models/Grok-3.md)**
 *   **[Alibaba Qwen 2.5](classic-models/Qwen-2.5.md)**
 *   **[Mistral Large 2](classic-models/Mistral-Large-2.md)**
+
+---
+
+## 🤖 OpenClaw 专题 (OpenClaw Special)
+
+**OpenClaw** 是 2026 年初现象级的开源 AI 智能体项目，从一个 1 小时的个人原型发展为拥有 180,000+ Star 的全球社区，并最终被 OpenAI Foundation 收录。
+
+*   **[发展历史 (History)](openclaw/history.md)**: 记录从 Clawdbot 到 OpenClaw 的病毒式增长历程。
+*   **[创始人 (Founder)](openclaw/founders.md)**: Peter Steinberger 的背景故事。
+*   **[现状与事件 (Status & Events)](openclaw/status_and_events.md)**: 涵盖 Moltbook 社交网络、MoltMatch 争议及 OpenAI 收购始末。
 
 ---
 
