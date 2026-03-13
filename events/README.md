@@ -4,6 +4,10 @@
 
 ## 目录
 
+- [Attention Is All You Need (The Transformer Paper)](./Attention-Is-All-You-Need.md) (2017年)
+  - 彻底颠覆了 NLP 领域，Transformer 架构成为后来 GPT、BERT 等所有现代大模型的基石。
+- [OpenAI 董事会危机 (The Boardroom Coup)](./OpenAI-Board-Crisis.md) (2023年11月)
+  - 关于 Sam Altman 去留的 5 天惊魂，暴露了 AI 安全与商业加速之间的深层矛盾。
 - [DeepSeek 价格战](./DeepSeek-Price-War.md) (2024年末 - 2025年初)
   - 标志着大模型推理成本的急剧下降，引发了全球范围内的价格调整和算力去魅。
 - [推理模型的崛起](./Reasoning-Models-Rise.md) (2025年)

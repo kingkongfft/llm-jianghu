@@ -4,6 +4,8 @@
 
 ## 目录
 
+- [2017年：Transformer 开启大模型时代](./2017.md)
+  - "Attention Is All You Need" 论文发布，神经网络从循环 (RNN) 向注意力机制 (Attention) 转型。
 - [2023年：生成式 AI 元年](./2023.md)
   - GPT-4 发布，ChatGPT 席卷全球，百模大战开启。
 - [2024年：应用与多模态](./2024.md)
