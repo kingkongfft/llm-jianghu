@@ -69,7 +69,6 @@ Updated the main `README.md` to include:
     ├── README.md           (Updated entry point)
     ├── major_players.md    (Main index of companies & models)
     ├── classic-models/     (Detailed model specs in Chinese)
-    ├── media-models/       (New: Video/Image models)
     ├── companies/          (Company profiles)
     ├── heroes/             (Key figures)
     ├── timeline/           (Yearly chronicles)
@@ -80,6 +79,6 @@ Updated the main `README.md` to include:
 
 ## 3. Next Steps
 
-1.  **Company Profiles**: Create missing company profiles like `companies/NVIDIA.md`, `companies/Midjourney.md` to link with the new models/heroes.
+1.  **Company Profiles**: Create `companies/NVIDIA.md` to link with the new hero file.
 2.  **More Events**: Document the "Sora Leak" or "Gen-3 Alpha" release in `events/`.
 3.  **Review**: Perform a full link check to ensure all new files are reachable from `README.md`.

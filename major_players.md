@@ -107,8 +107,6 @@
 ## 📂 模型索引 (Model Indexes)
 
 - [**经典文本模型 (Classic Text Models)**](classic-models/README.md): 收录 GPT-4, Claude 3, Llama 3 等主流 LLM 的详细参数。
-- [**多模态与媒体模型 (Media Models)**](media-models/README.md): 收录 Sora, Midjourney, Suno 等图像/视频/音频生成模型。
-
 ---
 
 ## 📅 历史与大事件 (History & Events)
