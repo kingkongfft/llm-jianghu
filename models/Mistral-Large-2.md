@@ -1,33 +1,33 @@
 # Mistral Large 2
 
-**Mistral Large 2** is Mistral AI's flagship frontier model, released in July 2024. With 123 billion parameters, it was designed to deliver GPT-4o-level performance while remaining significantly more efficient and cost-effective than its predecessors.
+**Mistral Large 2** 是 Mistral AI 于 2024 年 7 月发布的前沿旗舰模型。该模型拥有 1230 亿参数，旨在提供 GPT-4o 级别的性能，同时比前代产品更加高效且更具成本效益。
 
-## Technical Specifications
+## 技术规格 (Technical Specifications)
 
-- **Release Date**: July 24, 2024
-- **Developer**: [Mistral AI](../companies/Mistral-AI.md)
-- **Architecture**: Dense Transformer (Single-model architecture, not MoE)
-- **Parameters**: 123 Billion
-- **Context Window**: 128,000 tokens
-- **Output Limit**: 8,192 tokens
-- **License**: Mistral Research License (Non-Commercial), Available on API and Weights for Research
+- **发布日期**: 2024 年 7 月 24 日
+- **开发者**: [Mistral AI](../companies/Mistral-AI.md)
+- **架构**: 密集 Transformer (单模型架构，非 MoE)
+- **参数量**: 1230 亿
+- **上下文窗口**: 128,000 tokens
+- **输出限制**: 8,192 tokens
+- **许可证**: Mistral Research License (非商业), 提供 API 和研究用权重
 
-## Key Features
+## 核心特性 (Key Features)
 
-- **Efficiency Focus**: Designed specifically to fit on a single node of 8xH100 GPUs for inference, maximizing throughput.
-- **Multilingual Powerhouse**: Exceptional performance across dozens of languages, including European languages (French, German, Spanish, Italian) and coding languages (Python, Java, C++, etc.).
-- **Function Calling**: State-of-the-art capabilities in function calling and tool use, often surpassing GPT-4o in reliability.
-- **Reasoning**: Strong mathematical reasoning capabilities (MATH score 76.9%).
+- **聚焦效率**: 专为适应 8xH100 GPU 的单节点推理而设计，最大化吞吐量。
+- **多语言强者**: 在数十种语言（包括法语、德语、西班牙语、意大利语等欧洲语言）以及编程语言（Python, Java, C++ 等）中表现卓越。
+- **函数调用**: 拥有最先进的函数调用和工具使用能力，在可靠性上往往超越 GPT-4o。
+- **推理能力**: 强大的数学推理能力 (MATH 得分 76.9%)。
 
-## Benchmarks
+## 基准测试 (Benchmarks)
 
-| Benchmark | Score | Notes |
+| 基准测试 | 得分 | 备注 |
 | :--- | :--- | :--- |
-| **MMLU** | 84.0% | General Knowledge (5-shot) |
-| **MATH** | 76.9% | Mathematical reasoning |
-| **HumanEval** | 92.0% | Coding capability |
-| **Multilingual MMLU** | ~80%+ | Average across FR, DE, ES, IT |
+| **MMLU** | 84.0% | 通用知识 (5-shot) |
+| **MATH** | 76.9% | 数学推理 |
+| **HumanEval** | 92.0% | 代码能力 |
+| **Multilingual MMLU** | ~80%+ | 法、德、西、意语的平均分 |
 
-## Impact
+## 影响 (Impact)
 
-Mistral Large 2 proved that a focused, "mid-sized" (123B) model could compete directly with massive models like Llama 3.1 405B and GPT-4o. Its release demonstrated that specialized architecture and high-quality data could yield better results than simply scaling up parameter counts indiscriminately.
+Mistral Large 2 证明了专注的“中等规模” (123B) 模型可以直接与 Llama 3.1 405B 和 GPT-4o 等巨型模型竞争。它的发布表明，与其无差别地扩大参数规模，不如通过专用架构和高质量数据来获得更好的结果。

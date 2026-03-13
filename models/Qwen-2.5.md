@@ -1,32 +1,32 @@
 # Qwen 2.5
 
-**Qwen 2.5** is Alibaba Cloud's extensive family of large language models, released in September 2024, with a powerful "Max" version following in January 2025. It is widely regarded as one of the most capable open-weights model families available, particularly in coding and mathematics.
+**Qwen 2.5** (通义千问 2.5) 是阿里云于 2024 年 9 月发布的庞大语言模型家族，随后于 2025 年 1 月推出了强大的 "Max" 版本。它被广泛认为是目前能力最强的开放权重模型家族之一，特别是在编程和数学方面。
 
-## Technical Specifications
+## 技术规格 (Technical Specifications)
 
-- **Release Date**: September 19, 2024 (Base/Instruct), January 2025 (Max)
-- **Developer**: [Alibaba Cloud](../companies/Alibaba.md)
-- **Architecture**: Dense Transformer (with MoE variants)
-- **Parameters**: 0.5B, 1.5B, 3B, 7B, 14B, 32B, 72B (Open); "Max" (Proprietary/API only)
-- **Context Window**: 128,000 tokens (up to 1M in some variants)
-- **License**: Apache 2.0 (for most sizes), proprietary for Max
+- **发布日期**: 2024 年 9 月 19 日 (Base/Instruct), 2025 年 1 月 (Max)
+- **开发者**: [阿里云 (Alibaba Cloud)](../companies/Alibaba.md)
+- **架构**: 密集 Transformer (包含 MoE 变体)
+- **参数量**: 0.5B, 1.5B, 3B, 7B, 14B, 32B, 72B (开放); "Max" (专有/仅 API)
+- **上下文窗口**: 128,000 tokens (部分变体高达 1M)
+- **许可证**: Apache 2.0 (大多数尺寸), Max 为专有
 
-## Key Features
+## 核心特性 (Key Features)
 
-- **Coding Powerhouse**: The "Qwen 2.5-Coder" variants are specifically optimized for programming tasks, often rivaling much larger proprietary models.
-- **Qwen 2.5-Max**: The flagship API model (released Jan 2025) claims to outperform DeepSeek-V3 and challenge GPT-4o in reasoning and coding benchmarks.
-- **Multilingual Mastery**: Exceptional performance in Chinese and English, with strong support for over 29 other languages.
-- **Ecosystem**: Includes specialized "Math" and "Coder" models alongside the general-purpose "Instruct" models.
+- **编程强者**: "Qwen 2.5-Coder" 变体专门针对编程任务进行了优化，往往能与更大的专有模型抗衡。
+- **Qwen 2.5-Max**: 旗舰 API 模型（2025 年 1 月发布）声称在推理和编程基准测试中超越 DeepSeek-V3 并挑战 GPT-4o。
+- **多语言精通**: 在中文和英文方面表现卓越，并强力支持超过 29 种其他语言。
+- **生态系统**: 除了通用的 "Instruct" 模型外，还包括专门的 "Math" 和 "Coder" 模型。
 
-## Benchmarks (Qwen 2.5-Max / 72B Instruct)
+## 基准测试 (Qwen 2.5-Max / 72B Instruct)
 
-| Benchmark | Score (Max) | Score (72B) | Notes |
+| 基准测试 | 得分 (Max) | 得分 (72B) | 备注 |
 | :--- | :--- | :--- | :--- |
-| **Arena-Hard** | 89.4% | ~81.2% | Preference benchmark |
-| **MMLU-Pro** | - | 71.6% | Advanced General Knowledge |
-| **HumanEval** | - | 86.6% | Coding capability |
-| **MATH** | - | 83.1% | Mathematical reasoning |
+| **Arena-Hard** | 89.4% | ~81.2% | 偏好基准测试 |
+| **MMLU-Pro** | - | 71.6% | 高级通用知识 |
+| **HumanEval** | - | 86.6% | 代码能力 |
+| **MATH** | - | 83.1% | 数学推理 |
 
-## Impact
+## 影响 (Impact)
 
-Qwen 2.5 cemented Alibaba's position as the leader in the Chinese open-source AI ecosystem. The 72B model became the "gold standard" for deployable open-weights models in late 2024, offering the best balance of performance and hardware requirements before the release of DeepSeek-V3.
+Qwen 2.5 巩固了阿里巴巴在中国开源 AI 生态系统中的领导地位。72B 模型成为 2024 年底可部署开放权重模型的“黄金标准”，在 DeepSeek-V3 发布之前，提供了性能与硬件要求之间的最佳平衡。

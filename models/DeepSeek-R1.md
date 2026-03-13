@@ -1,33 +1,33 @@
 # DeepSeek-R1
 
-**DeepSeek-R1** is a state-of-the-art open-weights reasoning model developed by DeepSeek, known for matching or exceeding the performance of proprietary models like OpenAI's o1 while being significantly more efficient and cost-effective.
+**DeepSeek-R1** 是由深度求索 (DeepSeek) 开发的最先进的开放权重推理模型，以其在效率和成本效益显著优越的同时，性能匹配甚至超越 OpenAI o1 等闭源模型而闻名。
 
-## Technical Specifications
+## 技术规格 (Technical Specifications)
 
-- **Release Date**: January 20, 2025
-- **Developer**: [DeepSeek](../companies/DeepSeek.md)
-- **Architecture**: Mixture-of-Experts (MoE)
-- **Parameters**: 671 Billion (Total), 37 Billion (Active)
-- **Context Window**: 128,000 tokens
-- **Output Limit**: 8,192 tokens (standard), extensible
-- **License**: MIT License (Open Weights)
+- **发布日期**: 2025 年 1 月 20 日
+- **开发者**: [DeepSeek](../companies/DeepSeek.md)
+- **架构**: 混合专家 (MoE)
+- **参数量**: 6710 亿 (总参数), 370 亿 (激活参数)
+- **上下文窗口**: 128,000 tokens
+- **输出限制**: 8,192 tokens (标准), 可扩展
+- **许可证**: MIT License (开放权重)
 
-## Key Features
+## 核心特性 (Key Features)
 
-- **Reasoning Capabilities**: Uses a specialized "Chain of Thought" (CoT) process to break down complex problems in math, coding, and logic.
-- **Distilled Models**: Released alongside a family of smaller, distilled models (based on Qwen and Llama architectures) ranging from 1.5B to 70B parameters, bringing high-level reasoning to consumer hardware.
-- **Cost Efficiency**: The API pricing was disruptively low at launch ($0.55/1M input tokens), triggering an industry-wide price war.
-- **Open Weights**: Fully open weights allow researchers and developers to fine-tune and deploy the model locally.
+- **推理能力**: 使用专门的“思维链” (Chain of Thought, CoT) 过程来拆解数学、编程和逻辑方面的复杂问题。
+- **蒸馏模型**: 同步发布了一系列基于 Qwen 和 Llama 架构的小型蒸馏模型（1.5B 到 70B），将高水平推理能力带入消费级硬件。
+- **成本效益**: 发布时 API 定价极具颠覆性（$0.55/1M 输入 tokens），引发了全行业的价格战。
+- **开放权重**: 完全开放权重，允许研究人员和开发者在本地微调和部署模型。
 
-## Benchmarks
+## 基准测试 (Benchmarks)
 
-| Benchmark | Score | Notes |
+| 基准测试 | 得分 | 备注 |
 | :--- | :--- | :--- |
-| **MMLU** | 90.8% | General Knowledge (5-shot) |
-| **MATH** | 97.3% | Mathematical reasoning (Pass@1) |
-| **HumanEval** | 96.3% | Coding capability (Python) |
-| **AIME 2024** | 79.8% | Advanced Mathematics Competition |
+| **MMLU** | 90.8% | 通用知识 (5-shot) |
+| **MATH** | 97.3% | 数学推理 (Pass@1) |
+| **HumanEval** | 96.3% | 代码能力 (Python) |
+| **AIME 2024** | 79.8% | 高级数学竞赛 |
 
-## Impact
+## 影响 (Impact)
 
-DeepSeek-R1's release was a watershed moment for open-source AI, proving that open models could compete with the best closed-source models in complex reasoning tasks. Its aggressive pricing and permissive license accelerated the commoditization of intelligence and forced major Western labs to reconsider their closed strategies.
+DeepSeek-R1 的发布是开源 AI 的分水岭时刻，证明了开源模型在复杂推理任务中可以与最优秀的闭源模型竞争。其激进的定价和宽松的许可证加速了智能的商品化，并迫使西方主要实验室重新审视其封闭策略。

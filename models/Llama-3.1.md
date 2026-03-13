@@ -1,35 +1,35 @@
 # Llama 3.1
 
-**Llama 3.1** is Meta's groundbreaking family of open-weights models, released in July 2024. The series, particularly the 405B variant, marked the first time an open-source model achieved performance parity with the best closed-source frontier models (like GPT-4o).
+**Llama 3.1** 是 Meta 于 2024 年 7 月发布的开创性开放权重模型家族。该系列（特别是 405B 版本）标志着开源模型首次在性能上与最优秀的闭源前沿模型（如 GPT-4o）平起平坐。
 
-## Technical Specifications
+## 技术规格 (Technical Specifications)
 
-- **Release Date**: July 23, 2024
-- **Developer**: [Meta](../companies/Meta.md)
-- **Architecture**: Dense Transformer (Mixture-of-Experts for 405B estimated, though technically "standard Transformer with Grouped-Query Attention")
-- **Variants**:
-    - **8B**: Lightweight, runs on consumer GPUs.
-    - **70B**: Powerful general-purpose model.
-    - **405B**: Frontier-class model.
-- **Context Window**: 128,000 tokens
-- **License**: Custom Community License (Permissive for most uses)
+- **发布日期**: 2024 年 7 月 23 日
+- **开发者**: [Meta](../companies/Meta.md)
+- **架构**: 密集 Transformer (405B 估计为 MoE，尽管技术上是“带有分组查询注意力的标准 Transformer”)
+- **变体**:
+    - **8B**: 轻量级，可在消费级 GPU 上运行。
+    - **70B**: 强大的通用模型。
+    - **405B**: 前沿级模型。
+- **上下文窗口**: 128,000 tokens
+- **许可证**: 自定义社区许可证 (对大多数用途许可宽松)
 
-## Key Features
+## 核心特性 (Key Features)
 
-- **Massive Scale**: The 405B model was trained on over 15 trillion tokens using 16,000 H100 GPUs.
-- **Multilingual**: Supports 8 languages out of the box.
-- **Tool Use**: Strong capabilities in zero-shot tool use and function calling.
-- **Distillation**: Meta explicitly encouraged using the 405B model to distill knowledge into smaller models, a departure from restrictive licenses of competitors.
+- **超大规模**: 405B 模型使用 16,000 张 H100 GPU 在超过 15 万亿 tokens 上训练而成。
+- **多语言**: 开箱即支持 8 种语言。
+- **工具使用**: 在零样本工具使用和函数调用方面具有强大能力。
+- **蒸馏**: Meta 明确鼓励使用 405B 模型将知识蒸馏到更小的模型中，这与竞争对手的限制性许可证截然不同。
 
-## Benchmarks (405B)
+## 基准测试 (405B)
 
-| Benchmark | Score | Notes |
+| 基准测试 | 得分 | 备注 |
 | :--- | :--- | :--- |
-| **MMLU** | 88.6% | General Knowledge (5-shot) |
-| **MATH** | 73.8% | Mathematical reasoning |
-| **HumanEval** | 89.0% | Coding capability |
-| **GPQA** | 50.8% | Graduate-level reasoning |
+| **MMLU** | 88.6% | 通用知识 (5-shot) |
+| **MATH** | 73.8% | 数学推理 |
+| **HumanEval** | 89.0% | 代码能力 |
+| **GPQA** | 50.8% | 研究生级推理 |
 
-## Impact
+## 影响 (Impact)
 
-Llama 3.1 405B shattered the "open-source ceiling," proving that open weights could match the performance of proprietary models. Mark Zuckerberg described it as the "Linux moment" for AI, predicting that open source would eventually become the industry standard.
+Llama 3.1 405B 打破了“开源天花板”，证明了开放权重模型可以媲美专有模型的性能。马克·扎克伯格将其描述为 AI 的“Linux 时刻”，预言开源终将成为行业标准。

@@ -1,32 +1,32 @@
 # Gemini 1.5 Pro
 
-**Gemini 1.5 Pro** is Google's multimodal powerhouse, released in February 2024. It introduced a paradigm shift in context length, handling input windows of up to 2 million tokens, enabling the analysis of entire codebases, long videos, and books in a single pass.
+**Gemini 1.5 Pro** 是 Google 于 2024 年 2 月发布的强大多模态模型。它在上下文长度上引入了范式转变，能够处理高达 200 万 tokens 的输入窗口，从而实现单次分析整个代码库、长视频和书籍。
 
-## Technical Specifications
+## 技术规格 (Technical Specifications)
 
-- **Release Date**: February 15, 2024 (Announced), subsequent updates in May and June.
-- **Developer**: [Google](../companies/Google.md)
-- **Architecture**: Mixture-of-Experts (MoE)
-- **Context Window**: 1,000,000 to 2,000,000 tokens (Standard and Experimental)
-- **Output Limit**: 8,192 tokens
-- **Knowledge Cutoff**: January 2024 (at launch)
+- **发布日期**: 2024 年 2 月 15 日 (发布)，后续在 5 月和 6 月有更新。
+- **开发者**: [Google](../companies/Google.md)
+- **架构**: 混合专家 (MoE)
+- **上下文窗口**: 1,000,000 至 2,000,000 tokens (标准版和实验版)
+- **输出限制**: 8,192 tokens
+- **知识截止日期**: 2024 年 1 月 (发布时)
 
-## Key Features
+## 核心特性 (Key Features)
 
-- **Long Context Understanding**: Achieved near-perfect recall (99%+) in "Needle in a Haystack" evaluations up to 10 million tokens.
-- **Multimodality**: Natively understands text, images, audio, and video (up to 1 hour of video or 11 hours of audio).
-- **Efficiency**: Uses significantly less compute than Gemini 1.0 Ultra while outperforming it on most benchmarks.
-- **Tools**: Deep integration with Google Workspace and Search Grounding.
+- **长上下文理解**: 在“大海捞针” (Needle in a Haystack) 评估中，在高达 1000 万 tokens 的范围内实现了近乎完美的召回率 (99%+)。
+- **多模态**: 原生理解文本、图像、音频和视频（长达 1 小时的视频或 11 小时的音频）。
+- **高效性**: 使用的算力显著少于 Gemini 1.0 Ultra，但在大多数基准测试中表现更优。
+- **工具集成**: 深度集成 Google Workspace 和搜索增强 (Search Grounding)。
 
-## Benchmarks
+## 基准测试 (Benchmarks)
 
-| Benchmark | Score | Notes |
+| 基准测试 | 得分 | 备注 |
 | :--- | :--- | :--- |
-| **MMLU** | 81.9% | General Knowledge (5-shot) |
-| **MATH** | 58.5% | Mathematical reasoning |
-| **HumanEval** | 71.9% | Coding capability |
-| **Video MME** | 75.2% | Video understanding (SOTA) |
+| **MMLU** | 81.9% | 通用知识 (5-shot) |
+| **MATH** | 58.5% | 数学推理 |
+| **HumanEval** | 71.9% | 代码能力 |
+| **Video MME** | 75.2% | 视频理解 (SOTA) |
 
-## Impact
+## 影响 (Impact)
 
-Gemini 1.5 Pro redefined the limits of what LLMs could process, moving from "reading a page" to "reading a library." Its long-context capabilities opened new use cases in legal analysis, codebase refactoring, and video comprehension that were previously impossible.
+Gemini 1.5 Pro 重新定义了大语言模型处理能力的极限，从“阅读一页”进化到“阅读一座图书馆”。其长上下文能力开启了法律分析、代码库重构和视频理解等前所未有的新用例。

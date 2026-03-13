@@ -1,33 +1,33 @@
 # GPT-4o
 
-**GPT-4o** ("o" for "omni") is OpenAI's flagship multimodal model, released in May 2024. It is designed to handle text, audio, image, and video inputs and outputs natively in real-time.
+**GPT-4o**（"o"代表"omni"，意为全能）是 OpenAI 于 2024 年 5 月发布的旗舰多模态模型。它旨在实时处理文本、音频、图像和视频的输入与输出。
 
-## Technical Specifications
+## 技术规格 (Technical Specifications)
 
-- **Release Date**: May 13, 2024
-- **Developer**: [OpenAI](../companies/OpenAI.md)
-- **Architecture**: Dense Transformer (Estimated, likely MoE)
-- **Parameters**: Not disclosed (Estimated > 1T)
-- **Context Window**: 128,000 tokens
-- **Output Limit**: 16,384 tokens
-- **Knowledge Cutoff**: October 2023 (at launch, subsequently updated)
+- **发布日期**: 2024 年 5 月 13 日
+- **开发者**: [OpenAI](../companies/OpenAI.md)
+- **架构**: 密集 Transformer (估测，可能为 MoE)
+- **参数量**: 未公开 (估测 > 1T)
+- **上下文窗口**: 128,000 tokens
+- **输出限制**: 16,384 tokens
+- **知识截止日期**: 2023 年 10 月 (发布时，后续有更新)
 
-## Key Features
+## 核心特性 (Key Features)
 
-- **Native Multimodality**: Capable of reasoning across audio, vision, and text in real-time without separate models for speech-to-text or text-to-speech.
-- **Real-time Voice**: Supports natural, low-latency voice conversations with emotional intonation.
-- **Efficiency**: Significantly faster and 50% cheaper than GPT-4 Turbo at launch.
-- **Multilingual**: Improved performance in non-English languages.
+- **原生多模态**: 能够跨音频、视觉和文本进行实时推理，无需单独的语音转文本或文本转语音模型。
+- **实时语音**: 支持自然、低延迟且带有情感语调的语音对话。
+- **高效性**: 发布时比 GPT-4 Turbo 显著更快，且价格便宜 50%。
+- **多语言**: 提升了非英语语言的表现。
 
-## Benchmarks
+## 基准测试 (Benchmarks)
 
-| Benchmark | Score | Notes |
+| 基准测试 | 得分 | 备注 |
 | :--- | :--- | :--- |
-| **MMLU** | 88.7% | General Knowledge (5-shot) |
-| **MATH** | 76.6% | Mathematical reasoning |
-| **GPQA** | 53.6% | Graduate-level reasoning |
-| **HumanEval** | 90.2% | Coding capability |
+| **MMLU** | 88.7% | 通用知识 (5-shot) |
+| **MATH** | 76.6% | 数学推理 |
+| **GPQA** | 53.6% | 研究生级推理 |
+| **HumanEval** | 90.2% | 代码能力 |
 
-## Impact
+## 影响 (Impact)
 
-GPT-4o set a new standard for model unification, bringing "Her"-like voice interaction capabilities to the mainstream. It consolidated OpenAI's lead in the consumer chatbot market by making advanced multimodal features available to free users.
+GPT-4o 树立了模型统一的新标准，将类似电影《Her》中的语音交互能力带入主流市场。通过向免费用户开放高级多模态功能，它巩固了 OpenAI 在消费者聊天机器人市场的领先地位。

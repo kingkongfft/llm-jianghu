@@ -1,32 +1,32 @@
 # Grok-3
 
-**Grok-3** is xAI's flagship reasoning model, released in February 2025. Trained on the massive Colossus supercluster, it introduced a "Thinking" mode comparable to OpenAI's o1, significantly boosting its performance on STEM and coding tasks.
+**Grok-3** 是 xAI 于 2025 年 2 月发布的旗舰推理模型。该模型在庞大的 Colossus 超级计算集群上训练，引入了可与 OpenAI o1 媲美的“思考” (Thinking) 模式，显著提升了在 STEM 和编程任务上的表现。
 
-## Technical Specifications
+## 技术规格 (Technical Specifications)
 
-- **Release Date**: February 2025
-- **Developer**: [xAI](../companies/xAI.md)
-- **Architecture**: Transformer-based (Unknown details, possibly MoE)
-- **Parameters**: Estimated 1T+
-- **Context Window**: 128,000 tokens
-- **Training Compute**: 100,000+ Nvidia H100s
+- **发布日期**: 2025 年 2 月
+- **开发者**: [xAI](../companies/xAI.md)
+- **架构**: 基于 Transformer (细节未知，可能为 MoE)
+- **参数量**: 估测 1T+
+- **上下文窗口**: 128,000 tokens
+- **训练算力**: 100,000+ Nvidia H100s
 
-## Key Features
+## 核心特性 (Key Features)
 
-- **Colossus Supercluster**: Trained on one of the world's largest AI supercomputers, allowing for rapid iteration and massive scale.
-- **Thinking Mode**: A specialized reasoning process that enables the model to "think" through complex problems before answering, similar to Chain of Thought.
-- **Real-time Data**: Integrated with the X platform for real-time news and sentiment analysis.
-- **Efficiency**: Claims to match GPT-4o and Claude 3.5 Sonnet on major benchmarks while being highly efficient.
+- **Colossus 超算集群**: 在全球最大的 AI 超算之一上训练，实现了快速迭代和大规模扩展。
+- **思考模式 (Thinking Mode)**: 一种专门的推理过程，允许模型在回答之前“思考”复杂问题，类似于思维链 (Chain of Thought)。
+- **实时数据**: 与 X 平台集成，可获取实时新闻和舆情分析。
+- **高效性**: 声称在主要基准测试中匹敌 GPT-4o 和 Claude 3.5 Sonnet，同时保持高效。
 
-## Benchmarks (Claimed)
+## 基准测试 (官方宣称)
 
-| Benchmark | Score | Notes |
+| 基准测试 | 得分 | 备注 |
 | :--- | :--- | :--- |
-| **MMLU** | 88.0% | General Knowledge (5-shot) |
-| **GPQA** | 60.0% | Graduate-level reasoning |
-| **HumanEval** | 92.5% | Coding capability |
-| **MATH** | 80.0% | Mathematical reasoning |
+| **MMLU** | 88.0% | 通用知识 (5-shot) |
+| **GPQA** | 60.0% | 研究生级推理 |
+| **HumanEval** | 92.5% | 代码能力 |
+| **MATH** | 80.0% | 数学推理 |
 
-## Impact
+## 影响 (Impact)
 
-Grok-3 solidified xAI as a serious contender in the frontier model race, challenging the dominance of OpenAI, Google, and Anthropic. Its integration with X provided a unique advantage in accessing real-time conversational data unavailable to competitors.
+Grok-3 巩固了 xAI 作为前沿模型竞赛中重要竞争者的地位，挑战了 OpenAI、Google 和 Anthropic 的统治地位。其与 X 的集成提供了竞争对手无法获得的获取实时对话数据的独特优势。
