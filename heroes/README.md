@@ -22,6 +22,9 @@
 - **[Geoffrey Hinton](./Geoffrey-Hinton.md)**: “AI 教父”，深度学习奠基人。晚年从 Google 离职，成为 AI 风险的“吹哨人”。
 - **[Yann LeCun](./Yann-LeCun.md)**: Meta 首席 AI 科学家，图灵奖得主。坚定的开源支持者和 AI 乐观主义者，常与“末日论”者在社交媒体激辩。
 
+### 🔌 基础设施与资本 (Infrastructure & Capital)
+- **[Jensen Huang (黄仁勋)](./Jensen-Huang.md)**: NVIDIA CEO，不仅是“卖铲子的人”，更是定义了 AI 计算范式的领航者。
+
 ---
 
 ## ⚔️ 经典战役与关系 (Key Relationships & Debates)

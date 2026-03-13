@@ -38,11 +38,12 @@ Updated the main `README.md` to include:
 ### E. Events & Timeline
 *   **Events Directory**: Populated `events/` with detailed analysis of:
     *   [DeepSeek Price War](events/DeepSeek-Price-War.md): The industry-shaking pricing strategy of early 2025.
-    *   [Rise of Reasoning Models](events/Reasoning-Models-Rise.md): The shift from System 1 to System 2 thinking (o1, R1).
+    *   [Reasoning Models Rise](events/Reasoning-Models-Rise.md): The shift from System 1 to System 2 thinking (o1, R1).
+    *   [OpenAI Board Crisis](events/OpenAI-Board-Crisis.md): The 5-day turmoil in Nov 2023.
+    *   [Baidu vs Google](events/Baidu-Google-AI-Rivalry.md): The 10-year talent war.
 *   **Timeline Expansion**:
-    *   Created `timeline/2026.md` as a placeholder for the current year's developments.
-    *   Updated `events/README.md` and `timeline/README.md` to serve as proper indices.
-    *   Linked new event content in `major_players.md`.
+    *   Updated `timeline/2025.md` with Sora, Blackwell, and OpenClaw origins.
+    *   Refined `timeline/2026.md` with more granular events (Gen-4, MoltMatch).
 
 ### F. OpenClaw (New Addition)
 *   **New Directory**: Created `openclaw/` to document the viral open-source AI agent project of 2026.
@@ -50,6 +51,14 @@ Updated the main `README.md` to include:
     *   [History](openclaw/history.md): Traced the path from a 1-hour prototype to a viral phenomenon.
     *   [Founder](openclaw/founders.md): Profile of Peter Steinberger.
     *   [Status & Events](openclaw/status_and_events.md): Covered MoltMatch controversy and OpenAI acquisition.
+
+### G. Media Models & Infrastructure
+*   **Media Models**: Created `media-models/` directory for non-text frontier models.
+    *   [Sora](media-models/Sora.md) (OpenAI)
+    *   [Midjourney](media-models/Midjourney.md) (Midjourney)
+*   **Heroes Expansion**:
+    *   Added [Jensen Huang](heroes/Jensen-Huang.md) to `heroes/` as a key infrastructure figure.
+    *   Updated `heroes/README.md` with a new "Infrastructure & Capital" section.
 
 ## 2. Current State
 
@@ -60,7 +69,9 @@ Updated the main `README.md` to include:
     ├── README.md           (Updated entry point)
     ├── major_players.md    (Main index of companies & models)
     ├── classic-models/     (Detailed model specs in Chinese)
+    ├── media-models/       (New: Video/Image models)
     ├── companies/          (Company profiles)
+    ├── heroes/             (Key figures)
     ├── timeline/           (Yearly chronicles)
     ├── events/             (Key industry events)
     ├── openclaw/           (New: Detailed viral project docs)
@@ -69,6 +80,6 @@ Updated the main `README.md` to include:
 
 ## 3. Next Steps
 
-1.  **Historical Events**: Add `events/OpenAI-Board-Crisis.md` to capture the 2023 governance turmoil.
-2.  **Media Models**: Create `media-models/` directory for Sora, Midjourney, Flux, etc., to distinguish from LLMs.
-3.  **Refine 2026 Timeline**: Monitor Q1 2026 for confirmed releases to populate `timeline/2026.md`.
+1.  **Company Profiles**: Create missing company profiles like `companies/NVIDIA.md`, `companies/Midjourney.md` to link with the new models/heroes.
+2.  **More Events**: Document the "Sora Leak" or "Gen-3 Alpha" release in `events/`.
+3.  **Review**: Perform a full link check to ensure all new files are reachable from `README.md`.
