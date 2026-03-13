@@ -42,6 +42,23 @@
 - **2022**: ChatGPT 发布，AI 爆发元年
 - **2023**: GPT-4, Llama, Midjourney v5, 文心一言等百模大战
 - **2024**: Sora, GPT-4o, Claude 3.5, Llama 3...
+- **2025**: DeepSeek-R1, Grok-3, Qwen 2.5-Max (推理模型爆发)
+- **2026**: Gemini 3, GPT-5 (预计/部分发布)...
+
+---
+
+## 🚀 模型发布 (Model Releases)
+
+收录了各大主流模型的详细技术规格说明：
+
+*   **[OpenAI GPT-4o](classic-models/GPT-4o.md)**
+*   **[DeepSeek-R1](classic-models/DeepSeek-R1.md)**
+*   **[Anthropic Claude 3.5 Sonnet](classic-models/Claude-3.5-Sonnet.md)**
+*   **[Meta Llama 3.1](classic-models/Llama-3.1.md)**
+*   **[Google Gemini 1.5 Pro](classic-models/Gemini-1.5-Pro.md)**
+*   **[xAI Grok-3](classic-models/Grok-3.md)**
+*   **[Alibaba Qwen 2.5](classic-models/Qwen-2.5.md)**
+*   **[Mistral Large 2](classic-models/Mistral-Large-2.md)**
 
 ---
 
