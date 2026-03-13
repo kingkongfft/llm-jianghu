@@ -8,6 +8,8 @@
   - 标志着大模型推理成本的急剧下降，引发了全球范围内的价格调整和算力去魅。
 - [推理模型的崛起](./Reasoning-Models-Rise.md) (2025年)
   - 从 OpenAI o1 到 DeepSeek R1，模型开始具备“慢思考”能力，标志着 AI 从 System 1 向 System 2 的进化。
+- [Dario Amodei 的中国往事与观点](./Dario-Amodei-China-Views.md)
+  - 揭秘 Anthropic CEO 在百度的经历，以及他对 DeepSeek 和中美 AI 竞争的犀利点评。
 
 ## 政策法规 (Policy & Regulation)
 
