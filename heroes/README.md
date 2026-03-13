@@ -9,12 +9,16 @@
 ### 🇺🇸 硅谷实权派 (The Operators)
 - **[Sam Altman](./Sam-Altman.md)**: OpenAI CEO，被称为“ChatGPT 之父”，激进的加速主义者与商业操盘手。
 - **[Elon Musk](./Elon-Musk.md)**: OpenAI 联合创始人（后退出），xAI 创始人，长期警示 AI 风险的同时疯狂追求 AGI。
+- **[Andrew Ng (吴恩达)](./Andrew-Ng.md)**: DeepLearning.AI 创始人，AI 普及者，坚定的乐观主义者，从“以模型为中心”转向“Agentic Workflow”的倡导者。
+
+### 🇨🇳 东方力量 (The Eastern Force)
+- **[李飞飞 (Fei-Fei Li)](./Fei-Fei-Li.md)**: 计算机视觉教母，ImageNet 缔造者。现致力于“空间智能”与具身 AI 的发展。
+- **[梁文锋 (Liang Wenfeng)](./Liang-Wenfeng.md)**: 深度求索 (DeepSeek) 创始人，从量化巨头转身大模型，以极客精神和开源策略重塑行业格局。
 
 ### 🔬 科学信仰派 (The Scientists & Believers)
 - **[Ilya Sutskever](./Ilya-Sutskever.md)**: OpenAI 前首席科学家，SSI 创始人。AGI 的坚定信仰者，主导了 GPT 系列的诞生，后因安全理念分歧引发“宫斗”。
 - **[Geoffrey Hinton](./Geoffrey-Hinton.md)**: “AI 教父”，深度学习奠基人。晚年从 Google 离职，成为 AI 风险的“吹哨人”。
 - **[Yann LeCun](./Yann-LeCun.md)**: Meta 首席 AI 科学家，图灵奖得主。坚定的开源支持者和 AI 乐观主义者，常与“末日论”者在社交媒体激辩。
-- **[李飞飞 (Fei-Fei Li)](./Fei-Fei-Li.md)**: 计算机视觉教母，ImageNet 缔造者。现致力于“空间智能”与具身 AI 的发展。
 
 ---
 
@@ -23,7 +27,7 @@
 ### 1. 理念之争：末日论 vs. 乐观派 (Doomers vs. Boomers)
 - **核心人物**: Geoffrey Hinton / Yoshua Bengio **VS** Yann LeCun / Andrew Ng
 - **焦点**: AI 是否会毁灭人类？
-- **名场面**: LeCun 在 X (Twitter) 上长期“舌战群儒”，认为担忧 AI 灭绝人类是杞人忧天；而 Hinton 则多次警告 AI 可能通过欺骗控制人类。
+- **名场面**: LeCun 在 X (Twitter) 上长期“舌战群儒”，认为担忧 AI 灭绝人类是杞人忧天；Andrew Ng 则认为这就像“担心火星人口过剩”。而 Hinton 多次警告 AI 可能通过欺骗控制人类。
 
 ### 2. OpenAI 宫斗 (The Boardroom Coup)
 - **核心人物**: Sam Altman **VS** Ilya Sutskever & Helen Toner
