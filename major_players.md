@@ -104,6 +104,13 @@
 
 ---
 
+## 📅 历史与大事件 (History & Events)
+
+- [**行业大事件 (Industry Events)**](events/README.md): 记录 DeepSeek 价格战、推理模型崛起等关键转折点。
+- [**时间轴 (Timeline)**](timeline/README.md): 按年份查阅大模型发展历史。
+
+---
+
 ## 🔍 资料来源 (Sources)
 
 1. **TechTarget**: *30 of the best large language models in 2026* (提及 Grok 3, Gemini, Llama)
