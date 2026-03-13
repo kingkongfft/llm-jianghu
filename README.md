@@ -66,14 +66,27 @@
 
 > [👉 **点击查看：全球主流大模型公司/机构名录 (Major Players Index)**](major_players.md)
 
-*   **OpenAI**
-*   **Google DeepMind**
-*   **Anthropic**
-*   **Meta AI**
-*   **Microsoft**
-*   **xAI**
-*   **Mistral AI**
-*   **国内大模型厂商** (百度、阿里、腾讯、智谱、月之暗面等)
+### 🇺🇸 北美 (North America)
+*   **[OpenAI](companies/OpenAI.md)** (GPT, Sora)
+*   **[Google DeepMind](companies/Google.md)** (Gemini, Gemma)
+*   **[Anthropic](companies/Anthropic.md)** (Claude)
+*   **[Meta AI](companies/Meta.md)** (Llama)
+*   **[xAI](companies/xAI.md)** (Grok)
+*   **[Microsoft](companies/Microsoft.md)** (Phi, Copilot)
+
+### 🇨🇳 中国 (China)
+*   **[阿里巴巴 (Alibaba)](companies/Alibaba.md)** (Qwen/通义千问)
+*   **[腾讯 (Tencent)](companies/Tencent.md)** (Hunyuan/混元)
+*   **[字节跳动 (ByteDance)](companies/ByteDance.md)** (Doubao/豆包)
+*   **[百度 (Baidu)](companies/Baidu.md)** (Ernie/文心一言)
+*   **[深度求索 (DeepSeek)](companies/DeepSeek.md)** (DeepSeek)
+*   **[智谱 AI (Zhipu AI)](companies/ZhipuAI.md)** (GLM/智谱清言)
+*   **[月之暗面 (Moonshot AI)](companies/MoonshotAI.md)** (Kimi)
+*   **[MiniMax](companies/MiniMax.md)** (ABAB/海螺)
+*   **[01.AI (零一万物)](companies/01AI.md)** (Yi)
+
+### 🇪🇺 欧洲 (Europe)
+*   **[Mistral AI](companies/MistralAI.md)** (Mistral, Mixtral)
 
 ---
 
