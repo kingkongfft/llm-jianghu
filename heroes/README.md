@@ -9,13 +9,27 @@
 ### 🇺🇸 硅谷实权派 (The Operators)
 - **[Sam Altman](./Sam-Altman.md)**: OpenAI CEO，被称为“ChatGPT 之父”，激进的加速主义者与商业操盘手。
 - **[Elon Musk](./Elon-Musk.md)**: OpenAI 联合创始人（后退出），xAI 创始人，长期警示 AI 风险的同时疯狂追求 AGI。
+- **[Satya Nadella](./Satya-Nadella.md)**: Microsoft CEO，通过投资 OpenAI 和“Hit Refresh”战略，让微软在 AI 时代重回巅峰。
+- **[Mark Zuckerberg](./Mark-Zuckerberg.md)**: Meta CEO，坚定的开源 AI 捍卫者，通过 Llama 系列挑战闭源模型霸权。
+- **[Sundar Pichai](./Sundar-Pichai.md)**: Google CEO，提出 "AI First" 战略，在面临创新者窘境时整合 DeepMind 反击。
 - **[Dario Amodei](./Dario-Amodei.md)**: Anthropic CEO, 有效利他主义者。坚守 AI 安全底线，提出了“宪法 AI”理念。
 - **[Demis Hassabis](./Demis-Hassabis.md)**: Google DeepMind CEO, AlphaGo 之父, 诺贝尔化学奖得主。致力于解决科学难题 (AI for Science)。
 - **[Andrew Ng (吴恩达)](./Andrew-Ng.md)**: DeepLearning.AI 创始人，AI 普及者，坚定的乐观主义者，从“以模型为中心”转向“Agentic Workflow”的倡导者。
 
 ### 🇨🇳 东方力量 (The Eastern Force)
+- **[Robin Li (李彦宏)](./Robin-Li.md)**: 百度创始人，中国最早喊出 "All in AI" 的企业家，文心一言与飞桨的推手。
+- **[Pony Ma (马化腾)](./Pony-Ma.md)**: 腾讯创始人，极其低调务实，依托微信生态布局混元大模型与全真互联。
+- **[Eddie Wu (吴泳铭)](./Eddie-Wu.md)**: 阿里 CEO，技术极客出身，推动 Qwen (通义千问) 成为全球最强开源模型之一。
+- **[Liang Rubo (梁汝波)](./Liang-Rubo.md)**: 字节跳动 CEO，凭借强大的推荐算法基因和“价格战”策略，让豆包迅速普及。
+- **[Liang Wenfeng (梁文锋)](./Liang-Wenfeng.md)**: 深度求索 (DeepSeek) 创始人，从量化巨头转身大模型，以极客精神和开源策略重塑行业格局。
+- **[Kai-Fu Lee (李开复)](./Kai-Fu-Lee.md)**: 零一万物 (01.AI) 创始人，AI 投资教父，主张 TC-PMF 和 Global First。
+- **[Yang Zhilin (杨植麟)](./Yang-Zhilin.md)**: 月之暗面 (Moonshot AI) 创始人，Kimi 之父，坚定的 Scaling Law 信仰者。
+- **[Zhang Peng (张鹏)](./Zhang-Peng.md)**: 智谱 AI (Zhipu AI) CEO，源自清华 KEG 实验室，ChatGLM 开源先锋。
+- **[Yan Junjie (闫俊杰)](./Yan-Junjie.md)**: MiniMax 创始人，前商汤 VP，打造了 Glow 和海螺 AI 等情感交互爆款。
 - **[李飞飞 (Fei-Fei Li)](./Fei-Fei-Li.md)**: 计算机视觉教母，ImageNet 缔造者。现致力于“空间智能”与具身 AI 的发展。
-- **[梁文锋 (Liang Wenfeng)](./Liang-Wenfeng.md)**: 深度求索 (DeepSeek) 创始人，从量化巨头转身大模型，以极客精神和开源策略重塑行业格局。
+
+### 🇪🇺 欧洲希望 (European Hope)
+- **[Arthur Mensch](./Arthur-Mensch.md)**: Mistral AI CEO，前 DeepMind 研究员，欧洲开源大模型的旗手。
 
 ### 🔬 科学信仰派 (The Scientists & Believers)
 - **[Ilya Sutskever](./Ilya-Sutskever.md)**: OpenAI 前首席科学家，SSI 创始人。AGI 的坚定信仰者，主导了 GPT 系列的诞生，后因安全理念分歧引发“宫斗”。
