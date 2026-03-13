@@ -10,6 +10,8 @@
   - 从 OpenAI o1 到 DeepSeek R1，模型开始具备“慢思考”能力，标志着 AI 从 System 1 向 System 2 的进化。
 - [Dario Amodei 的中国往事与观点](./Dario-Amodei-China-Views.md)
   - 揭秘 Anthropic CEO 在百度的经历，以及他对 DeepSeek 和中美 AI 竞争的犀利点评。
+- [百度 vs. Google: 跨洋 AI 争霸史](./Baidu-Google-AI-Rivalry.md) (2011-2026)
+  - 记录两大搜索巨头在 AI 领域的十年纠葛，从人才争夺战 (Andrew Ng) 到 ImageNet 丑闻，再到大模型时代的殊途同归。
 
 ## 政策法规 (Policy & Regulation)
 
