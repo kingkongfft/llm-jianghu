@@ -4,10 +4,10 @@ This document outlines the protocols, standards, and workflows for AI agents (an
 
 ## 1. Project Context & Mission
 
-**Goal:** To objectively record, organize, and archive the history, development, and key events of Large Language Models (LLMs).
-**Core Principle:** All content must be based on public internet search results. **NO secondary creation, NO malicious processing, NO subjective bias.**
-**Language:** The primary language of the content is **Simplified Chinese (简体中文)**.
-**License:** MIT License.
+- **Goal:** To objectively record, organize, and archive the history, development, and key events of Large Language Models (LLMs).
+- **Core Principle:** All content must be based on verified public information. **NO secondary creation, NO malicious processing, NO subjective bias.**
+- **Language:** The primary language for documentation is **Simplified Chinese (简体中文)**.
+- **License:** MIT License.
 
 ## 2. Repository Structure
 
@@ -15,136 +15,112 @@ Understanding the directory structure is crucial for placing new content correct
 
 ### Documentation (Core)
 - **`timeline/`**: Chronological milestones.
-    - *Naming:* `YYYY.md` (e.g., `2023.md`, `2024.md`) or `YYYY-MM.md`.
+    - *Naming:* `YYYY.md` (e.g., `2025.md`) or `YYYY-MM.md`.
     - *Content:* Release dates, major announcements.
 - **`companies/`**: Profiles of organizations.
-    - *Naming:* `CompanyName.md` (e.g., `OpenAI.md`, `Anthropic.md`).
+    - *Naming:* `CompanyName.md` (e.g., `OpenAI.md`, `DeepSeek.md`).
     - *Content:* Founding date, key personnel, product portfolio.
-- **`models/`**: Technical specifications of models.
-    - *Naming:* `ModelName.md` (e.g., `GPT-4.md`, `Llama.md`).
+- **`classic-models/`**: Technical specifications of major models.
+    - *Naming:* `ModelName.md` (e.g., `GPT-4o.md`, `DeepSeek-R1.md`).
     - *Content:* Parameter counts, context window, benchmarks, license type.
+    - *Note:* Formerly `models/`, renamed to reflect the historical archiving nature.
 - **`events/`**: Industry-wide events, policy, and controversies.
-    - *Naming:* `Topic.md` (e.g., `Regulation.md`, `Conferences.md`).
+    - *Naming:* `Topic.md` (e.g., `OpenAI-Board-Crisis.md`).
+- **`major_players.md`**: The central index file at the root, linking to companies and models.
 
 ### Tooling (Skills)
 - **`.opencode/skills/`**: Python-based skills to automate research or repo maintenance.
     - Each skill resides in its own subdirectory (e.g., `ai-search/`).
-    - Must contain a `SKILL.md` describing usage.
+    - Must contain a `SKILL.md` describing usage and a `requirements.txt`.
 
 ## 3. Contribution Workflow
 
 ### For Documentation
 1.  **Search & Verify:**
-    - Use search tools to find authoritative sources (official blogs, reputable news, papers).
-    - Cross-reference dates and specific numbers (parameters, scores).
+    - Use the `ai-search` skill (`tavily_search.py`) to find authoritative sources (official blogs, papers).
+    - **Crucial:** Verify dates, version numbers (e.g., v3 vs v3.5), and specific metrics (tokens, parameters).
 2.  **Locate Target:**
-    - Identify the most appropriate directory.
-    - If a file exists, append to it. If not, create a new file following the naming convention.
-3.  **Draft Content:**
-    - Write in neutral, objective tone.
-    - Cite sources where possible (as hyperlinks).
-4.  **Review:**
-    - Check against "Content Guidelines" below.
+    - Check `major_players.md` first to see where the entity belongs.
+    - If a file exists, append new information chronologically.
+3.  **Draft Content (Chinese):**
+    - Write in objective Simplified Chinese.
+    - Example: "OpenAI 于 2024 年 5 月发布了 GPT-4o..." (OpenAI released GPT-4o in May 2024...).
+4.  **Link & Index:**
+    - If creating a new file, ensure it is linked in `major_players.md` and the relevant `timeline/YYYY.md`.
 
 ### For Code (Python Skills)
-1.  **Isolate:** Work within the specific skill directory in `.opencode/skills/`.
-2.  **Develop:** Write clean, typed Python code.
-3.  **Test:** Create and run unit tests to verify functionality.
-4.  **Document:** Update `SKILL.md` if usage changes.
+1.  **Isolate:** Work within the specific skill directory.
+2.  **Develop:** Write clean, typed Python code adhering to PEP 8.
+3.  **Dependencies:** Update `requirements.txt` within the skill folder if adding libraries.
 
-## 4. Documentation Guidelines (Style & Tone)
+## 4. Documentation Standards
 
-### 4.1 Neutrality
-- **Do:** "OpenAI released GPT-4 on March 14, 2023."
-- **Don't:** "OpenAI released the mind-blowing GPT-4 which destroyed all competition."
-- Avoid adjectives like "revolutionary", "insane", "game-changing" unless quoting a source directly.
+### 4.1 Neutrality & Tone
+- **Do:** "DeepSeek-R1 在多个基准测试中得分超过 90分。" (DeepSeek-R1 scored over 90 on multiple benchmarks.)
+- **Don't:** "DeepSeek-R1 是一个令人难以置信的、秒杀一切的神级模型。" (DeepSeek-R1 is an incredible, god-tier model that destroys everything.)
 
-### 4.2 Accuracy
-- Distinguish between **rumors** and **official announcements**.
-- If a date is uncertain, mark it as "Est." or "Rumored".
-- Verify model parameters (e.g., "175B" vs "Dense/MoE").
+### 4.2 Markdown Conventions
+- **Headers:** Use ATX style (`#`, `##`).
+- **Links:** Use relative paths (e.g., `[GPT-4o](../classic-models/GPT-4o.md)`).
+- **Tables:** Use for comparing model specs (e.g., Context Window, MMLU Score).
+- **Bold:** Use `**text**` for key entities (Company names, Model versions).
 
-### 4.3 Sourcing
-- Prefer primary sources: arXiv papers, official company blogs, GitHub repos.
-- Secondary sources: TechCrunch, The Verge, reputable tech media.
-- Format: `[Source Name](URL)` or purely as a reference link.
+## 5. Build, Lint & Test Commands
 
-### 4.4 Markdown Standards
-- **Headers:** Use ATX style (`#`, `##`). Hierarchy should be logical.
-- **Lists:** Use hyphens `-` for unordered lists.
-- **Bold:** Use `**text**` for key entities (Company names, Model names).
-- **Code Blocks:** Use backticks for commands or JSON data.
-- **Tables:** Use tables for comparing models or listing specs.
+Since this is a hybrid repo (Docs + Python Tools), testing is scoped to the `skills` directory.
 
-## 5. Coding Guidelines (Python Skills)
+### 5.1 Python Environment
+- **Setup:**
+  ```bash
+  # Inside a skill directory (e.g., .opencode/skills/ai-search/)
+  pip install -r requirements.txt
+  ```
 
-When modifying or adding Python scripts in `.opencode/skills/`:
+### 5.2 Linting
+- **Command:**
+  ```bash
+  flake8 .opencode/skills/
+  # OR
+  pylint .opencode/skills/**/*.py
+  ```
+- **Goal:** Ensure PEP 8 compliance.
 
-### 5.1 Style & Formatting
-- **PEP 8:** Follow standard Python style guidelines.
-- **Imports:** Group imports: standard library, third-party, local.
-- **Typing:** Use type hints (`typing` module) for all function arguments and return values.
+### 5.3 Testing
+- **Framework:** `unittest` is the standard.
+- **Running a Single Test:**
+  ```bash
+  # Assuming a test file exists at .opencode/skills/ai-search/tests/test_search.py
+  python -m unittest .opencode/skills/ai-search/tests/test_search.py
+  ```
+- **Note:** If no tests exist for a skill, create a `tests/` subdirectory and add basic unit tests before modifying the skill logic.
+
+## 6. Code Style Guidelines (Python)
+
+- **Formatting:** 4 spaces for indentation.
+- **Typing:** Mandatory type hints for all function signatures.
   ```python
-  def fetch_data(url: str, timeout: int = 10) -> dict[str, Any]:
+  def search(query: str, max_results: int = 5) -> List[Dict[str, Any]]:
       ...
   ```
 - **Naming:**
   - Variables/Functions: `snake_case`
   - Classes: `PascalCase`
   - Constants: `UPPER_CASE`
+- **Imports:**
+  - Standard library first (e.g., `import json`, `import os`)
+  - Third-party second (e.g., `import requests`)
+  - Local imports last
+- **Error Handling:** Catch specific exceptions (`requests.RequestException`) and provide informative error messages.
 
-### 5.2 Error Handling
-- Use specific exception types (e.g., `ValueError`, `requests.HTTPError`) rather than bare `except:`.
-- Provide meaningful error messages that help debug the issue.
-- Gracefully handle API failures (e.g., timeouts, rate limits).
+## 7. Agent Behavior Rules
 
-### 5.3 Testing
-- **Framework:** Use `unittest` for testing skills.
-- **Location:** Place tests in the same directory or a `tests/` subdirectory within the skill folder.
-- **Mocking:** Mock external API calls to avoid hitting live endpoints during tests.
-- **Command:** Run a single test file using:
-  ```bash
-  python .opencode/skills/<skill-name>/scripts/test_script.py
-  ```
-
-### 5.4 Dependencies
-- **Isolation:** Each skill should declare its dependencies.
-- **File:** Maintain a `requirements.txt` in the skill's root directory if external packages are used.
-- **Version:** Pin major versions where possible (e.g., `requests>=2.31.0`).
-
-## 6. Build & Lint Commands
-
-Since this is a hybrid repo (Docs + Python Tools):
-
-### 6.1 Documentation Linting
-- Ensure blank lines around headers and lists.
-- No trailing whitespace.
-- Consistent indentation (2 or 4 spaces).
-- Verify all links are valid.
-
-### 6.2 Python Linting & Testing
-- **Lint:** (If available) `flake8 .opencode/skills/` or `pylint`.
-- **Test:** Run specific test scripts as needed.
-  ```bash
-  # Example: Run tests for ai-search
-  python -m unittest .opencode/skills/ai-search/scripts/test_tavily_search.py
-  ```
-
-## 7. Error Handling & Edge Cases
-
-- **Conflicting Info (Docs):** If sources disagree, note the discrepancy: "Source A states X, while Source B states Y."
-- **Missing Info (Docs):** Use explicit placeholders like `(待补充)` or `TBD`.
-- **Duplicate Entries:** `grep` before adding to avoid redundancy.
-
-## 8. Agent Behavior Rules
-
-1.  **Read First:** Always read existing `README.md` or `SKILL.md` to understand context.
-2.  **No Hallucinations:** If you don't know a parameter, do not invent one. Search or leave it blank.
-3.  **Scoped Changes:** Only modify the files relevant to the user's request.
+1.  **Read First:** Always read `major_players.md` and `README.md` to understand the current state.
+2.  **No Hallucinations:** If a parameter (like parameter count) is unknown, state "Unknown" or "Undisclosed" (e.g., "参数量: 未公开"). Do not guess.
+3.  **Cross-Link:** When adding a model, link it to its company in `companies/` and the year in `timeline/`.
 4.  **Commit Messages:**
     - Format: `type(scope): description`
-    - Types: `docs` (documentation), `feat` (new skill/feature), `fix` (bug fix), `style` (formatting).
-    - Example: `docs(timeline): add GPT-4o release date` or `fix(ai-search): handle API timeout`
+    - Types: `docs` (documentation), `feat` (new skill/feature), `fix` (bug fix), `refactor` (structure change).
+    - Example: `docs(classic-models): add DeepSeek-R1 technical specs`
 
 ---
 *This file is intended for AI agents to understand the operational context of the repository.*
